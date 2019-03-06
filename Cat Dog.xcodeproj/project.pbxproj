@@ -12,6 +12,8 @@
 		3C6C787A223035390074F5D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6C7878223035390074F5D3 /* Main.storyboard */; };
 		3C6C787C2230353E0074F5D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C6C787B2230353E0074F5D3 /* Assets.xcassets */; };
 		3C6C787F2230353E0074F5D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6C787D2230353E0074F5D3 /* LaunchScreen.storyboard */; };
+		3C6C78872230365C0074F5D3 /* PetsClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3C6C78862230365C0074F5D3 /* PetsClassifier.mlmodel */; };
+		3C6C788922303AE10074F5D3 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6C788822303AE10074F5D3 /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3C6C787B2230353E0074F5D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C6C787E2230353E0074F5D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C6C78802230353E0074F5D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C6C78862230365C0074F5D3 /* PetsClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PetsClassifier.mlmodel; sourceTree = "<group>"; };
+		3C6C788822303AE10074F5D3 /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				3C6C7874223035390074F5D3 /* AppDelegate.swift */,
 				3C6C7876223035390074F5D3 /* ViewController.swift */,
+				3C6C788822303AE10074F5D3 /* CGImagePropertyOrientation+UIImageOrientation.swift */,
+				3C6C78862230365C0074F5D3 /* PetsClassifier.mlmodel */,
 				3C6C7878223035390074F5D3 /* Main.storyboard */,
 				3C6C787B2230353E0074F5D3 /* Assets.xcassets */,
 				3C6C787D2230353E0074F5D3 /* LaunchScreen.storyboard */,
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C6C78872230365C0074F5D3 /* PetsClassifier.mlmodel in Sources */,
+				3C6C788922303AE10074F5D3 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
 				3C6C7877223035390074F5D3 /* ViewController.swift in Sources */,
 				3C6C7875223035390074F5D3 /* AppDelegate.swift in Sources */,
 			);
